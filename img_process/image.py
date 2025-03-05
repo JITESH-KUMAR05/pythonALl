@@ -1,7 +1,6 @@
 from PIL import Image, ImageFilter
 
-img = Image.open('./images/pikachu.webp')
-
+img = Image.open('./images/pika.png')
 # filtered_img = img.filter(ImageFilter.BLUR)
 # print(img.format)
 # print(img.size)
@@ -20,3 +19,9 @@ img = Image.open('./images/pikachu.webp')
 # filtered_img.show()
 # filtered_img = filtered_img.rotate(90)
 # filtered_img.show()
+# # newimg = img.resize((400,400))
+# print(img.size)
+# img.thumbnail((400,400))
+# print(img.size)
+# img.show()
+# newimg.show()
